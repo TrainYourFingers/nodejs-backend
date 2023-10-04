@@ -3,7 +3,6 @@ const app = express();
 const path = require("path");
 const cors = require("cors");
 const dotenv = require("dotenv");
-// const nodemailer = require("nodemailer");
 
 const corsOptions = require("./config/corsOptions");
 const { logger } = require("./middleware/logEvents");
@@ -45,25 +44,6 @@ app.use("/logout", require("./routes/logout"));
 app.use(verifyJWT);
 app.use("/employees", require("./routes/api/employees"));
 
-// const transporter = nodemailer.createTransport({
-//   service: "gmail",
-//   auth: {
-//    user: "",
-//    pass: ""
-//   },
-// });
-
-// const mailOptions = {
-//   from: "fujidoja@gmail.com",
-//   to: "sulav.pokhrel25@gmail.com",
-//   subject: "Sending Email using Node.js",
-//   text: "That was easy!",
-// };
-
-// transporter.sendMail(mailOptions, (error, info) => {
-//   if (error) console.log(error);
-//   else console.log("Email sent: " + info.response);
-// });
 app.all("*", (req, res) => {
   res.status(404);
   if (req.accepts("html"))
