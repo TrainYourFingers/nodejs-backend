@@ -14,7 +14,7 @@ const handleLogin = async (req, res) => {
   const { username, password } = req.body;
   if (!username || !password)
     return res
-      .status(400)
+      .sendStatus(400)
       .json({ message: "Username and password are required" });
   const foundUser = usersDB.users.find(
     (person) => person.username === username
