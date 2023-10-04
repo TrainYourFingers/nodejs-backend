@@ -1,1 +1,30 @@
-[{"username":"johndoe@gmail.com","roles":{"User":2001,"Editor":1984,"Admin":5150},"password":"$2b$10$EtX1iM.fH9MvbebsORT5NeNGJ6rBz.P2NsBmNkZxlnKSqzzgSmMNO"},{"username":"lindajohnson@gmail.com","roles":{"User":2001},"password":"$2b$10$uXPq9j09TeaiW1vCjsw.duQRDdH0nljXVtUfPZ3FWacoUm40/hF1O"},{"username":"Steve Jobs","roles":{"User":2001},"password":"$2b$10$zi.quBf/94tJZ3JPASDZRu8fDdJxIIGnISNHkte8ElVeJvc2Di3nO","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN0ZXZlIEpvYnMiLCJpYXQiOjE2OTY0MTc1NzQsImV4cCI6MTY5NjUwMzk3NH0.FsWnIu5on62aJsQCTw6-A9c2mNTMP2AAPWCxJnqvDi0"},{"username":"gravy@gmail.com","roles":{"User":2001,"Editor":1984},"password":"$2b$10$34LDUV5aEC3TKpDgrxha5uWNEjNn8CSEz1RjJgk20LjoKf69QwBm.","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdyYXZ5QGdtYWlsLmNvbSIsImlhdCI6MTY5NjQxODk1MSwiZXhwIjoxNjk2NTA1MzUxfQ.yq1oiUdx66ykNoUMfi9XPICOMkfTyoGMvYxsB_0ovCg"},{"username":"John Doe","roles":{"User":2001,"Editor":1984,"Admin":5150},"password":"$2b$10$G2thM9yNKwlRNjs3tKgaM.ap2PmII0aiN45Ik3RtY.0VH8Qkrg8bO","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNjk2NDE5MDI4LCJleHAiOjE2OTY1MDU0Mjh9.Z-2MwMuyRh2hnU3ejLkMxb7KsYs4Tx0I7E-9zN7Ew20"}]
+[
+  {
+    "username": "johndoe@gmail.com",
+    "roles": { "User": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$EtX1iM.fH9MvbebsORT5NeNGJ6rBz.P2NsBmNkZxlnKSqzzgSmMNO"
+  },
+  {
+    "username": "lindajohnson@gmail.com",
+    "roles": { "User": 2001 },
+    "password": "$2b$10$uXPq9j09TeaiW1vCjsw.duQRDdH0nljXVtUfPZ3FWacoUm40/hF1O"
+  },
+  {
+    "username": "Steve Jobs",
+    "roles": { "User": 2001 },
+    "password": "$2b$10$zi.quBf/94tJZ3JPASDZRu8fDdJxIIGnISNHkte8ElVeJvc2Di3nO",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN0ZXZlIEpvYnMiLCJpYXQiOjE2OTY0MTc1NzQsImV4cCI6MTY5NjUwMzk3NH0.FsWnIu5on62aJsQCTw6-A9c2mNTMP2AAPWCxJnqvDi0"
+  },
+  {
+    "username": "gravy@gmail.com",
+    "roles": { "User": 2001, "Editor": 1984 },
+    "password": "$2b$10$34LDUV5aEC3TKpDgrxha5uWNEjNn8CSEz1RjJgk20LjoKf69QwBm.",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdyYXZ5QGdtYWlsLmNvbSIsImlhdCI6MTY5NjQxODk1MSwiZXhwIjoxNjk2NTA1MzUxfQ.yq1oiUdx66ykNoUMfi9XPICOMkfTyoGMvYxsB_0ovCg"
+  },
+  {
+    "username": "John Doe",
+    "roles": { "User": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$G2thM9yNKwlRNjs3tKgaM.ap2PmII0aiN45Ik3RtY.0VH8Qkrg8bO",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNjk2NDE5MDI4LCJleHAiOjE2OTY1MDU0Mjh9.Z-2MwMuyRh2hnU3ejLkMxb7KsYs4Tx0I7E-9zN7Ew20"
+  }
+]

@@ -1,2 +1,0 @@
-20230930	17:57:26	cff81228-345b-4bef-bf84-14239812c16e	TypeError: Cannot read properties of undefined (reading 'id')
-20231004	16:40:36	b9659acc-f416-46b7-8be4-ac23b1eeb488	Error: Not Allowed By CORS
